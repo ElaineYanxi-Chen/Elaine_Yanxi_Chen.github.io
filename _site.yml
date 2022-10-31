@@ -17,6 +17,8 @@ navbar:
       href: mailto:<yc4017@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: https://github.com/ElaineYanxi-Chen
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/elaine-chen-62a94516a/
 output:
   html_document:
     theme: cerulean
