@@ -1,0 +1,12 @@
+---
+title: "About this website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Elaine's awesome website
+
+This awesome website is made in rmarkdown and other stuff to complete Homework 4 for the course of Data Science p8105. Assignment details can be found [here](https://p8105.com/homework_4.html)
+
