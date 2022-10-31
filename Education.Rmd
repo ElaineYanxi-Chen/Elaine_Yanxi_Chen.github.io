@@ -6,34 +6,47 @@ output:
     toc_float: true
 ---
 
-# This is Elaine's awesome website
+# Educational Background
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+## Undergraduate Degree
 
-Here's some text. I like the internet. I use [google](https://www.google.ca/) all the time to do data science.
+Spending my childhood in Beijing, China, I moved to Canada when I was 14 and went to high school in Victoria, British Columbia. Following graduation, I attended the University of British Columbia [(UBC)](https://www.ubc.ca/). In case you haven't heard of us before, UBC has one of the most beautiful campuses in the world and many [movies and TV shows](https://bc.ctvnews.ca/from-fifty-shades-to-riverdale-8-movies-and-tv-shows-filmed-on-the-ubc-campus-1.6044731) you are familiar with were shot here. 
 
-This is my landlady's cat Grisou who is super adorable.
+I obtained a combined honours degree in biochemistry and chemistry. I graduated with distinction, with a cumulative GPA of 84%. Some of my undergrd highlights include:
 
-![](images/Grisou.jpg)
+* Dean's Honours List (2017, 2021)
+
+* Completed an Undergrad Honours Thesis (95%) studying chemo- and radiotherapy response in bladder cancer
+
+* Finalist at the [UBC Undergraduate 3 Minute Thesis Competition 2021](https://biochem.ubc.ca/2020-2021-3mt-competition-serena-chuang-and-elaine-chen/)
+
+Outside of school, I also participated in various extracurriculars: 
+
+* Peer Mentor at the Undergraduate Chemistry Society
+
+** Mentored second-year chemistry majored students for a smooth transition into the program
+
+* Research Mentee with the Undergraduate Research Opportunities
 
 
-We can try to use html code to format the image instead of using rmd language. 
+** Studied mechanism of metastasis in uveal melanoma under the supervision of a Master's student
 
-<center>
-<img src="images/Grisou.jpg" style="width:25%">
-</center>
+** Conducted literature review and presented results in a poster format at the Multidisciplinary Undergraduate Research Conference
 
-```{r}
-library(tidyverse)
 
-sample = rnorm(1000)
-mean(sample)
-```
+* Conference Coordinator of the Biochemsitry Student Association
 
-Here's a direct link to the about page: [about](about.html).
+** Organized social, academic, and professional events for biochemistry students to foster a sense of community during COVID-19
 
-I also made a bonus [extra page](extra_page.html).
 
-## New Section!!
+* Section leader at UBC a cappella
 
-[Here's](plotly.html) a page with plotly plots.
+** 
+
+## Graduate Degree
+
+I am currently a second year Master of Public Health (MPH) student at Columbia Mailman School of Public Health. I study in the Department of Epidemiology and aim to obtain my certificate in Applied Biostatistics and Public Health Data Science.
+
+
+
+

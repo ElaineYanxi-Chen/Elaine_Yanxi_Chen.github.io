@@ -6,7 +6,13 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Resume"
-      href: Education.html
+      menu:
+        - text: "Education"
+          href: Education.html
+        - text: "Professional"
+          href: Professional.html
+        - text: "Volunteering"
+          href: Volunteer.html
     - icon: fa-envelope fa-lg
       href: mailto:<yc4017@cumc.columbia.edu>
     - icon: fa-github fa-lg
