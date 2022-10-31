@@ -1,39 +1,37 @@
 ---
-title: "My awesome website"
+title: "Professional Experience"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Elaine's awesome website
+## Graduate Teaching Assistant, Sep 2022 - Current 
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+* I am currently a Teaching Assistant for the **Quantitative Research Methods Module** at **Columbia Mailman School of Public Health**
 
-Here's some text. I like the internet. I use [google](https://www.google.ca/) all the time to do data science.
+* I lead weekly lab sessions for 17 students to go over practice questions together and host weekly office hours.
 
-This is my landlady's cat Grisou who is super adorable.
+* I grade student assignments and respond to inquiries and follow-up in a timely manner
 
-![](images/Grisou.jpg)
+* In addition, I pilot assignments and exams, provide feedback, and maintain regular communication with the lead TAs and faculty
 
 
-We can try to use html code to format the image instead of using rmd language. 
+## Practicum Student, Jun 2022 - Current
 
-<center>
-<img src="images/Grisou.jpg" style="width:25%">
-</center>
+* I was a practicum student with Dr. Yiwey Shieh at the **Department of Population Health Sciences** at **Weill Cornell Medicine**.
 
-```{r}
-library(tidyverse)
+* Our project focused on risk factors for breast cancer and the association between polygenic risk score and interval breast cancer
 
-sample = rnorm(1000)
-mean(sample)
-```
+* I learned how to clean and merge breast cancer patient dataset using R, and analyze data using biostatistical methods such as logistic regression.
 
-Here's a direct link to the about page: [about](about.html).
 
-I also made a bonus [extra page](extra_page.html).
+## Undergraduate Research Assistant, May 2019 - Aug 2021 
 
-## New Section!!
+* I started as a co-op student at Dr. Peter Black's lab and continued as a thesis student and an undergraduate Research Assistant at the **Vancouver Prostate Centre**. 
 
-[Here's](plotly.html) a page with plotly plots.
+* I designed and conducted molecular biology experiments such as RT-qPCR and Western Blot with precision and proficiency. I learned and matured quickly, from learning everything from scratch to providing technical training for nnew students and post-docs.
+
+* Working with various physicians and post-docs, I facilitated with multiple projects on a range of scope, from maintaining bladder cancer mouse models, conducting wet-lab experiments, to processing patient sample and constructing patient database.
+
+* Together with my supervisor, Dr. Takashi Motsumoto, we drafted a research manuscript. The abstract was presented at the International Bladder Cancer Network 2020 and published in [*Urologic Oncology*](https://doi.org/10.1016/j.urolonc.2020.10.048).

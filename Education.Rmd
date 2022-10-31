@@ -1,18 +1,19 @@
 ---
-title: "My awesome website"
+title: "Educational Background"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# Educational Background
 
-## Undergraduate Degree
+## Undergraduate Degree: 2016 - 2021
 
-Spending my childhood in Beijing, China, I moved to Canada when I was 14 and went to high school in Victoria, British Columbia. Following graduation, I attended the University of British Columbia [(UBC)](https://www.ubc.ca/). In case you haven't heard of us before, UBC has one of the most beautiful campuses in the world and many [movies and TV shows](https://bc.ctvnews.ca/from-fifty-shades-to-riverdale-8-movies-and-tv-shows-filmed-on-the-ubc-campus-1.6044731) you are familiar with were shot here. 
+Spending my childhood in Beijing, China, I moved to Canada when I was 14 and went to high school in Victoria, British Columbia. Following graduation, I attended the **University of British Columbia** [(UBC)](https://www.ubc.ca/). In case you haven't heard of us before, UBC has one of the most beautiful campuses in the world and many [movies and TV shows](https://bc.ctvnews.ca/from-fifty-shades-to-riverdale-8-movies-and-tv-shows-filmed-on-the-ubc-campus-1.6044731) you are familiar with were shot here. 
 
-I obtained a combined honours degree in biochemistry and chemistry. I graduated with distinction, with a cumulative GPA of 84%. Some of my undergrd highlights include:
+### Highlights
+
+I obtained a **combined honours degree in biochemistry and chemistry**. I graduated with distinction, with a cumulative GPA of 84%. Some of my undergrd highlights include:
 
 * Dean's Honours List (2017, 2021)
 
@@ -20,33 +21,44 @@ I obtained a combined honours degree in biochemistry and chemistry. I graduated 
 
 * Finalist at the [UBC Undergraduate 3 Minute Thesis Competition 2021](https://biochem.ubc.ca/2020-2021-3mt-competition-serena-chuang-and-elaine-chen/)
 
-Outside of school, I also participated in various extracurriculars: 
+### Extracurricular Activities
+
+Outside of school, I also participated in various extracurricular: 
 
 * Peer Mentor at the Undergraduate Chemistry Society
 
-** Mentored second-year chemistry majored students for a smooth transition into the program
+  * Mentored second-year chemistry majored students for a smooth transition into the program
+  
 
 * Research Mentee with the Undergraduate Research Opportunities
 
+  * Studied mechanism of metastasis in uveal melanoma under the supervision of a Master's student
 
-** Studied mechanism of metastasis in uveal melanoma under the supervision of a Master's student
-
-** Conducted literature review and presented results in a poster format at the Multidisciplinary Undergraduate Research Conference
-
+  * Conducted literature review and presented results in a poster format at the Multidisciplinary Undergraduate Research Conference
 
 * Conference Coordinator of the Biochemsitry Student Association
 
-** Organized social, academic, and professional events for biochemistry students to foster a sense of community during COVID-19
+  * Organized social, academic, and professional events for biochemistry students to foster a sense of community during COVID-19
+  
 
+* Section leader at [UBC A Cappella](https://www.youtube.com/user/UBCacappella)
 
-* Section leader at UBC a cappella
+  * Led weekly practice sessions 
+  
 
-** 
+## Graduate Degree: 2021 - 2023
 
-## Graduate Degree
+I am currently a second year **Master of Public Health** (MPH) student at **Columbia Mailman School of Public Health**. I study in the **Department of Epidemiology** and aim to obtain my certificate in **Applied Biostatistics and Public Health Data Science**. My current cumulative GPA is 4.20. 
 
-I am currently a second year Master of Public Health (MPH) student at Columbia Mailman School of Public Health. I study in the Department of Epidemiology and aim to obtain my certificate in Applied Biostatistics and Public Health Data Science.
+### Course Highlight
 
+* Introduction to SAS
 
+* Data Science I
+
+  * I am in the process of learning R with Dr. Jeff Goldsmith, primarily using rmarkdown and Github, which is also how this website is created. 
+  * Repos can be found on my [GitHub](https://github.com/ElaineYanxi-Chen) page. An example repo of data wrangling and visualization, one of the focuses of this course, can be found [here](https://github.com/ElaineYanxi-Chen/p8105_hw2_yc4017).
+  
+* Cancer Epidemiology
 
 
