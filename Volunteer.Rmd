@@ -1,39 +1,11 @@
 ---
-title: "My awesome website"
+title: "Volunteering Experience"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Elaine's awesome website
+## New-York Presbytarian Hospital
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-Here's some text. I like the internet. I use [google](https://www.google.ca/) all the time to do data science.
-
-This is my landlady's cat Grisou who is super adorable.
-
-![](images/Grisou.jpg)
-
-
-We can try to use html code to format the image instead of using rmd language. 
-
-<center>
-<img src="images/Grisou.jpg" style="width:25%">
-</center>
-
-```{r}
-library(tidyverse)
-
-sample = rnorm(1000)
-mean(sample)
-```
-
-Here's a direct link to the about page: [about](about.html).
-
-I also made a bonus [extra page](extra_page.html).
-
-## New Section!!
-
-[Here's](plotly.html) a page with plotly plots.
+## Department of Urologic Sciences
