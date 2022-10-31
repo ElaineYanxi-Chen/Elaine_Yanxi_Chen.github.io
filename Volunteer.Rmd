@@ -6,6 +6,16 @@ output:
     toc_float: true
 ---
 
-## New-York Presbytarian Hospital
+Outside of school, I spent quite some time volunteering at the local hospitals. While completing my undergrad degree at UBC, I volunteered with the Department of Urological Sciences at **Vancouver general Hospital** (VGH). Now studying for my MPH degree at Columbia University, I volunteer as the NICU navigator at **NewYork-Presbyterian Morgan Stanley Children's Hospital**.
 
-## Department of Urologic Sciences
+## NICU Navigator at NYP
+
+* I perform weekly patient outreach and follow-up calls to parents with their babies in the NICU and inform them about classes and resources that help them navigate their time at NICU and prepare for transition out of NICU.
+
+* Communicating to parents with different language and background is something challenging but very rewarding from this experience.
+
+## Research Assistant at VGH
+
+* I worked closely with doctors and research staff to collect outcome data from kidney transplant patient.
+
+* My responsibility involved managing the online trackers for patient follow-up, scheduling reminders via Qualtrics, and filling out surveys with patients in the clinic.

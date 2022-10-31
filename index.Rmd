@@ -1,13 +1,11 @@
 ---
-title: "Elaine's website for p8105 homework 4"
+title: "Elaine Yanxi Chen"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-
-# Elaine Yanxi Chen
 
 Hi, My name is Elaine Yanxi Chen (Chinese: 陈彦希). I am currently a second year Master of Public Health (MPH) at Columbia University Mailman School of Public Health.
 
@@ -19,13 +17,11 @@ Here you will find information on my academic and professional experience, links
 
 ## Resume
 
-[Here's](education.html) a page on my educational history. For my professional experience please see [here](professional.html). Some information on my past volunteer experiences can also be found [here](volunteer.html). 
+[Here's](https://elaineyanxi-chen.github.io/Elaine_Yanxi_Chen.github.io/Education.html) a page on my educational history. For my professional experience please see [here](https://elaineyanxi-chen.github.io/Elaine_Yanxi_Chen.github.io/Professional.html). Some information on my past volunteer experiences can also be found [here](https://elaineyanxi-chen.github.io/Elaine_Yanxi_Chen.github.io/Volunteer.html). 
 
 ## Contact Information
 
-You can follow the link here to my Github account:
-
-[ElaineYanxi-Chen](https://github.com/ElaineYanxi-Chen)
+You can follow the link here to my Github account: [ElaineYanxi-Chen](https://github.com/ElaineYanxi-Chen)
 
 To contact me, you can email me at yc4017@cumc.columbia.edu, or connect with me on [LinkedIn](https://www.linkedin.com/in/elaine-chen-62a94516a/)
 
