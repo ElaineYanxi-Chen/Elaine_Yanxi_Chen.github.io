@@ -1,0 +1,107 @@
+---
+title: "Plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+We're going to make some plotly plots.
+
+## Load packages and data
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(httr)
+library(jsonlite)
+
+knitr::opts_chunk$set(
+	echo = TRUE,
+	warning = FALSE,
+	fig.width = 8, 
+  fig.height = 6,
+  out.width = "90%"
+)
+theme_set(theme_minimal() + theme(legend.position = "bottom"))
+options(
+  ggplot2.continuous.colour = "viridis",
+  ggplot2.continuous.fill = "viridis"
+)
+scale_colour_discrete = scale_colour_viridis_d
+scale_fill_discrete = scale_fill_viridis_d
+```
+
+For this assignment, I will be using NYC Restaurant Inspections dataset from the `p8105.datasets` package. I will first import the data, then filter out those without grades in A, B, or C, and remove restaurants with missing borough information. I am also only interested in Chinese restaurants and will filter only for Chinese restaurants here. I also noticed that there are several repeated inspection records of the same restaurant on the same day, so we will only keep the distinct measurements. Below we clean the dataframe as desired and resulted in the `chinese_rest` dataframe.
+
+
+```{r dataframe}
+data("rest_inspec")
+
+chinese_rest = 
+  rest_inspec %>% 
+  filter(
+    grade %in% c("A", "B", "C"), 
+    boro != "Missing",
+    cuisine_description == "Chinese") %>% 
+  mutate(boro = str_to_title(boro)) %>% 
+  select(boro, dba, score, grade, grade_date) %>% 
+  distinct()
+```
+
+
+First, we will create a scatterplot that documents the mean violation score of Chinese restaurants in the five boroughs as time goes by.
+
+
+```{r scatterplot}
+chinese_rest %>% 
+  group_by(boro, grade_date) %>% 
+  summarize(mean_score = mean(score)) %>% 
+  plot_ly(
+    x = ~grade_date, y = ~mean_score, color = ~boro,
+    type = "scatter", mode = "lines", colors = "viridis") %>% 
+  layout(
+    title = "Mean Violation Scores of Chinese Restaurants in New York City
+    (Mar 2013 - Oct 2017)",
+    xaxis = list(title = "Inspection Date"),
+    yaxis = list(title = "Mean Violation Score"))
+```
+
+
+Next, we will create a boxplot to look at the violation score distribution of Chinese restaurants that were inspected by the New York City Department of Health and Mental Hygiene in the five boroughs in 2017. Note that outliers with scores > 30 were removed to focus on the comparison.
+
+
+```{r}
+chinese_rest %>% 
+  separate(col = grade_date, into = c("year", "month", "day"), sep = "-", convert = TRUE) %>% 
+  filter(year == "2017", score < 30) %>% 
+  mutate(boro = fct_reorder(boro, score)) %>% 
+  plot_ly(y = ~score, color = ~boro, type = "box", colors = "viridis") %>% 
+  layout(
+    title = "Violation Score of Chinese Restaurants 
+    in New York City, 2017",
+    xaxis = list(title = "Borough"),
+    yaxis = list(title = "Violations Score"))
+```
+
+
+Finally, we will use a bar plot to look at the distribution of inspection grade of Chinese restaurants in the five boroughs of New York City from March 2013 to October 2017. 
+
+
+```{r bar plot}
+chinese_rest %>% 
+  group_by(boro, grade) %>% 
+  summarize(n = n()) %>% 
+  pivot_wider(names_from = grade, values_from = n) %>% 
+  plot_ly(x = ~boro, y = ~A, type = "bar", name = "A") %>% 
+  add_trace(y = ~B, name = "B") %>% 
+  add_trace(y = ~C, name = "C") %>% 
+  layout(
+    title = "Number and Grade of Violations in Chinese Restaurants in New York City
+    (Mar 2013 - Oct 2017)",
+    xaxis = list(title = "Borough"),
+    yaxis = list(title = "Number of Violations"), barmode = "stack")
+```
+
+
