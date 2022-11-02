@@ -12,16 +12,16 @@ output:
 
 * I lead weekly lab sessions for 17 students to go over practice questions together and host weekly office hours.
 
-* I grade student assignments and respond to inquiries and follow-up in a timely manner
+* I grade student assignments and respond to inquiries and follow-up in a timely manner.
 
-* In addition, I pilot assignments and exams, provide feedback, and maintain regular communication with the lead TAs and faculty
+* In addition, I pilot assignments and exams, provide feedback, and maintain regular communication with the lead TAs and faculty.
 
 
 ## Practicum Student, Jun 2022 - Current
 
 * I was a practicum student with Dr. Yiwey Shieh at the **Department of Population Health Sciences** at **Weill Cornell Medicine**.
 
-* Our project focused on risk factors for breast cancer and the association between polygenic risk score and interval breast cancer
+* Our project focused on risk factors for breast cancer and the association between polygenic risk score and interval breast cancer.
 
 * I learned how to clean and merge breast cancer patient dataset using R, and analyze data using biostatistical methods such as logistic regression.
 
