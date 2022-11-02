@@ -6,6 +6,7 @@ output:
     toc_float: true
 ---
 
+## Introduction
 
 Hi, My name is Elaine Yanxi Chen (Chinese: 陈彦希). I am currently a second year Master of Public Health (MPH) student at Columbia University Mailman School of Public Health.
 
